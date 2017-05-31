@@ -11,5 +11,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-githooks');
 
   //Register tasks
-  
+  grunt.registerTask('default', []);
 };
